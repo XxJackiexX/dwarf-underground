@@ -2,7 +2,7 @@ One of the first steps in becoming proficient in React is to learn how to break 
 
 To practice making components, we've provided all the markup and styling for a static webpage.  Your job is to look at the page, think about how you would break it up into individual pieces, and then create a React component for each piece, moving the markup and styling rules into the appropriate places.  Your final product should look the same as the original static site.
 
-## Instructions
+## Instructions HW 6
 
 * fork and clone this repo and navigate into the `dwarf-underground` directory
 * view the static website by typing `open static.html`
@@ -11,23 +11,23 @@ To practice making components, we've provided all the markup and styling for a s
 * run your React version by typing `yarn start` and navigating to `localhost:3000`
 * check to make sure that your React version looks the same as the original
 
-### Basic Requirements
+### Basic Requirements (Complete)-Header, Footer, ArticleBody, ArticleTitle, Author, ArticleText
 
 * Split the page into at least 6 total components
 
-### Bonus Credit
+### Bonus Credit: (Complete) Header, Footer, ArticleBody, ArticleTitle, Author, ArticleText additional ones Aside, OtherArticles, AsideAdImg, EachArticle
 
 * Split the page into at least 10 total components, including components *in* components
 
-### Super Bonus Credit
+### Super Bonus Credit (Complete) OtherArticles.js maps EachArticle.js
 
 * Render the four article links at the bottom of the screen using `map` and passing in the props they need
 
-### Super Mega Bonus Credit
+### Super Mega Bonus Credit (Complete) CommentForm.js 
 
 * Make a component that contains a text field for leaving a comment
 * Have the text field appear only when the 'comments' link at the bottom of the article is clicked
 
-### Super Mega Bonus Credit Hyper Fighting
+### Super Mega Bonus Credit Hyper Fighting 
 
 * Actually display comments that are entered and submitted
